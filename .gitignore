@@ -1,7 +1,7 @@
 build/
 build-mingw/
 
-subprojects/
+subprojects/*
 !subprojects/*.wrap
 
 # Prerequisites
