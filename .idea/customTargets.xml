@@ -14,10 +14,10 @@
     <target id="3ca99fe1-b938-472f-b923-4dda197cc646" name="Ninja MingW" defaultType="TOOL">
       <configuration id="26c54472-32d3-4110-8589-eb5d181bdebb" name="Ninja MingW">
         <build type="TOOL">
-          <tool actionId="Tool_External Tools_Ninja Clean" />
+          <tool actionId="Tool_External Tools_Ninja Build Mingw" />
         </build>
         <clean type="TOOL">
-          <tool actionId="Tool_External Tools_Ninja Clean" />
+          <tool actionId="Tool_External Tools_Ninja Clean Mingw" />
         </clean>
       </configuration>
     </target>

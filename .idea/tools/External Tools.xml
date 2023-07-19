@@ -3,10 +3,24 @@
     <exec>
       <option name="COMMAND" value="/usr/bin/ninja" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/build-mingw" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/build" />
     </exec>
   </tool>
   <tool name="Ninja Clean" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/usr/bin/ninja" />
+      <option name="PARAMETERS" value="clean" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/build" />
+    </exec>
+  </tool>
+  <tool name="Ninja Build Mingw" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/usr/bin/ninja" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/build-mingw" />
+    </exec>
+  </tool>
+  <tool name="Ninja Clean Mingw" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="/usr/bin/ninja" />
       <option name="PARAMETERS" value="clean" />
