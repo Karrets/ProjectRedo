@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CLionExternalBuildManager">
+    <target id="1b44882b-f6d4-4b9b-a871-85968a1a05d3" name="Ninja" defaultType="TOOL">
+      <configuration id="4f08af22-a342-4dc5-8ae2-ffa40072a523" name="Ninja">
+        <build type="TOOL">
+          <tool actionId="Tool_External Tools_Ninja Build" />
+        </build>
+        <clean type="TOOL">
+          <tool actionId="Tool_External Tools_Ninja Clean" />
+        </clean>
+      </configuration>
+    </target>
+    <target id="3ca99fe1-b938-472f-b923-4dda197cc646" name="Ninja MingW" defaultType="TOOL">
+      <configuration id="26c54472-32d3-4110-8589-eb5d181bdebb" name="Ninja MingW">
+        <build type="TOOL">
+          <tool actionId="Tool_External Tools_Ninja Clean" />
+        </build>
+        <clean type="TOOL">
+          <tool actionId="Tool_External Tools_Ninja Clean" />
+        </clean>
+      </configuration>
+    </target>
+  </component>
+</project>

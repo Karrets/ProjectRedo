@@ -1,3 +1,9 @@
+build/
+build-mingw/
+
+subprojects/
+!subprojects/*.wrap
+
 # Prerequisites
 *.d
 
