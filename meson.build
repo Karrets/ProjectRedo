@@ -1,14 +1,14 @@
 project('ProjectRedo', 'cpp')
 
-sources = [
-    'src/Main.cpp',
-]
+sources = []
+subdir('src')
 
 dependencies = [
     dependency('threads'),
     dependency('sdl2'),
     dependency('lua'),
     dependency('sol2'),
+    dependency('spdlog'),
 ]
 
 link_args = []
